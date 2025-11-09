@@ -20,7 +20,7 @@ class Strainer
 
         foreach ($fruits as $fruit) {
             if ($fruit->isUsable()) {
-                $juice += $fruit->getJuiceYield();
+                $juice += $fruit->getJuice();
             }
         }
 

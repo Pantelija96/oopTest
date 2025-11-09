@@ -1,10 +1,17 @@
 {
-  "name": "pantelija/oop-test",
-  "description": "OOP Test",
-  "autoload": {
-    "psr-4": {
-      "App\\": "src/"
-    }
-  },
-  "require": {}
+    "name": "pantelija/oop-test",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pantelija Stosic",
+            "email": "pantelijastosic@gmail.com"
+        }
+    ],
+    "require": {}
 }
